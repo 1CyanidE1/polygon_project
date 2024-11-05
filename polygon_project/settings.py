@@ -38,6 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'polygon_app.apps.PolygonAppConfig',
+    'django.contrib.gis',
+    'rest_framework',
+    'leaflet',
 ]
 
 MIDDLEWARE = [
