@@ -5,3 +5,4 @@ gunicorn>=21.2.0
 djangorestframework>=3.14.0
 folium>=0.15.0
 django-leaflet>=0.29.0
+python-dotenv>=1.0.1
