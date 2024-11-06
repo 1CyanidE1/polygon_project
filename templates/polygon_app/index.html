@@ -44,7 +44,7 @@
                             <input type="number" class="form-control" id="longitude" placeholder="Longitude" step="any" min="-180" max="180">
                             <button type="button" class="btn btn-primary" id="addPoint">Add Point</button>
                         </div>
-                        <<div class="coordinate-label">Or click on the map to add points (right-click on marker to remove)</div>
+                        <div class="coordinate-label">Or click on the map to add points (right-click on marker to remove)</div>
                     </div>
 
                     <div class="mb-3">
@@ -198,13 +198,6 @@
             $('#coordinates').val('');
             updatePolygon();
         }
-    
-        $('<button>')
-            .addClass('btn btn-warning me-2')
-            .text('Clear')
-            .attr('type', 'button')
-            .on('click', clearForm)
-            .insertBefore('#polygonForm button[type="submit"]');
     
         $('#polygonForm').submit(function(e) {
             e.preventDefault();
